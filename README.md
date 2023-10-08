@@ -7,10 +7,9 @@ Finding organizations that have been consistently participating in GSoC for rece
   2. ## Install the requirements
     pip install -r requirements.txt
   3. ## Run the files
-     Running `python scraper.py` in terminal will scrape relevant data and pack it into .json file for each year.<br>
+     Running `python scraper.py` in terminal will scrape relevant data and pack it into .json file separately for each year.<br>
     <br>
      Running `python records.py` in terminal will find common organizations amongst that data then create a list for it.<br>
-    <br>
   5. ## Done
      In the root directory, you'll find ***output.xlsx*** which contains the final list. You can then adjust the column-width and format square brackets from the list to make it look cleaner.<br>
      Here an example:-<br><br>
