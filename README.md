@@ -1,5 +1,5 @@
 # About
-Finding organizations that have been consistently participating in GSoC in recent years.
+Find organizations that have been participating in gsoc for recent years.
 
 # How to use
   1. ## Clone the repository
@@ -7,11 +7,10 @@ Finding organizations that have been consistently participating in GSoC in recen
   2. ## Install the requirements
     pip install -r requirements.txt
   3. ## Run the files
-     **scraper.py** will scrape relevant data and pack it into .json file for each year.<br>
-    `python scraper.py`<br>
+     Running `python scraper.py` in terminal will scrape relevant data and pack it into .json file for each year.<br>
     <br>
-    **records.py** will find common organizations amongst that data then create a list for it.<br>
-    `python records.py`<br>
+     Running `python records.py` in terminal will find common organizations amongst that data then create a list for it.<br>
+    <br>
   5. ## Done
      In the root directory, you'll find ***output.xlsx*** which contains the final list. You can then adjust the column-width and format square brackets from the list to make it look cleaner.<br>
      Here an example:-<br><br>
@@ -19,4 +18,4 @@ Finding organizations that have been consistently participating in GSoC in recen
 
 
 # Ending Note
-Before making this, I tried various other solutions for scraping. Weirdly enough, they all seemed to pretend as if the content found on the GSoC's *browse organizations* page is static, so none of them actually worked. It's impossible to scrape dynamic content by only using BeautifulSoup4, hence **Selenium** was used in this project. The scraping takes a lot of time (~ 15 mins) as at no point was I focusing on having shorter runtime. I might redo this project in Rust someday; that is when I'd focus on runtime, however any change for more optimized code is welcomed.
+Before making this, I tried various other solutions for scraping. Weirdly enough, they all seemed to pretend as if the content found on the GSoC's *browse organizations* page is static, so none of them actually worked. It's impossible to scrape dynamic content by only using BeautifulSoup4, hence **Selenium** was used in this project. The scraping takes a lot of time (~ 25 mins) as my priority was get the job done. I might redo this project in Rust someday; that is when I'd focus on runtime, however any change for more optimized code is welcomed.
