@@ -1,5 +1,5 @@
 # About
-Find organizations that have been participating in gsoc for recent years.
+Finding organizations that have been consistently participating in GSoC for recent years.
 
 # How to use
   1. ## Clone the repository
