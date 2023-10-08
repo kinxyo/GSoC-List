@@ -5,7 +5,7 @@ Finding organizations that have been consistently participating in GSoC in recen
   1. ## Clone the repository
     git clone https://github.com/kinxyo/GSoC-List.git
   2. ## Install the requirements
-    pip install requirements.txt
+    pip install -r requirements.txt
   3. ## Run the files
      **scraper.py** will scrape relevant data and pack it into .json file for each year.<br>
     `python scraper.py`<br>
@@ -19,4 +19,4 @@ Finding organizations that have been consistently participating in GSoC in recen
 
 
 # Ending Note
-Before making this, I tried various other solutions for scraping. Weirdly enough, they all seemed to pretend as if the content found on the GSoC's *browse organizations* page is static so none of them actually worked. It's impossible to scrape dynamic content by only using BeautifulSoup4, hence **Selenium** was used in this project. The scraping takes a lot of time (~ 15 mins) as at no point was I focusing on having shorter runtime. I might redo this project in Rust someday; that is when I'd focus on runtime, however any change for more optimized code is welcomed.
+Before making this, I tried various other solutions for scraping. Weirdly enough, they all seemed to pretend as if the content found on the GSoC's *browse organizations* page is static, so none of them actually worked. It's impossible to scrape dynamic content by only using BeautifulSoup4, hence **Selenium** was used in this project. The scraping takes a lot of time (~ 15 mins) as at no point was I focusing on having shorter runtime. I might redo this project in Rust someday; that is when I'd focus on runtime, however any change for more optimized code is welcomed.
