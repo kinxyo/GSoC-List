@@ -17,4 +17,4 @@ Finding organizations that have been consistently participating in GSoC for rece
 
 
 # Ending Note
-Before making this, I tried various other solutions for scraping. Weirdly enough, they all seemed to pretend as if the content found on the GSoC's *browse organizations* page is static, so none of them actually worked. It's impossible to scrape dynamic content by only using BeautifulSoup4, hence **Selenium** was used in this project. The scraping takes a lot of time (~ 25 mins) as my priority was get the job done. I might redo this project in Rust someday; that is when I'd focus on runtime, however any change for more optimized code is welcomed.
+Before making this, I tried various other solutions for scraping. Weirdly enough, they all seemed to pretend as if the content found on the GSoC's *browse organizations* page is static, so none of them actually worked. It's impossible to scrape dynamic content by only using BeautifulSoup4, hence **Selenium** is used in this project.
